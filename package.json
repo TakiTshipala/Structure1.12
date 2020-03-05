@@ -1,0 +1,58 @@
+{
+  "name": "react-itune-search",
+  "version": "1.0.0",
+  "description": "React ITune search- using Redux",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.24.0",
+    "react": "^16.0.0",
+    "react-confirm-alert": "^2.6.1",
+    "react-dom": "^16.0.0",
+    "react-linkify": "^1.0.0-alpha",
+    "react-redux": "5.0.6",
+    "react-router-dom": "4.2.2",
+    "react-router-redux": "5.0.0-alpha.8",
+    "react-scripts": "^3.4.0",
+    "react-timeago": "^4.4.0",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass-chokidar": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjum121/react-itune-search.git"
+  },
+  "keywords": [],
+  "author": "Anjum Nawab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjum121/react-itune-search/issues"
+  },
+  "homepage": "http://anjum121.github.io/react-itune-search",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
